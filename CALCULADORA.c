@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*
-FAÇA UM PROGRAMA DE CALCULADORA, QUE LEIA DOIS VALORES
-E MOSTRE AS OPCOES DE SOMAR,SUBTRAIR.
- APÓS SELECIONAR A OPCAO, O RESULTADO SERA MOSTRADO NA TELA BASEADO EM UM SWITCH.
-*/
+
 
 int main()
 {
@@ -14,9 +10,9 @@ int main()
 
     printf("\nCALCULADORA\n");
 
-    printf("\nDigite o valor de a: ");
+    printf("\nDigite um valor: ");
     scanf("%f", &a);
-    printf("Digite o valor de b: ");
+    printf("Digite um valor: ");
     scanf("%f", &b);
 
     printf("\nESCOLHA A OPCAO\n");
@@ -50,3 +46,4 @@ int main()
     return 0;
 
 }
+
