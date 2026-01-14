@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
 /*
 FAÇA UM PROGRAMA DE CALCULADORA, QUE LEIA DOIS VALORES
 E MOSTRE AS OPCOES DE SOMAR,SUBTRAIR.
@@ -49,4 +48,5 @@ int main()
     }
 
     return 0;
+
 }
