@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdio.h>
-
+#define MAX 100
 /*
  1. Faça um programa que leia uma série de alunos de um arquivo texto passado via linha de comando. Cada
 aluno é composto de:
@@ -13,10 +12,7 @@ usuário e informe quais os alunos que estão cursando o semestre x.
 
 */
 
-#include <stdio.h>
-#include <stdlib.h>
 
-#define MAX 100
 
 typedef struct {
     char nome[30];
